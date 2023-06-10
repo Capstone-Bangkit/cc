@@ -1,3 +1,4 @@
+
 const express = require('express')
 const app = express()
 const port = 3001
@@ -8,7 +9,7 @@ const response = require('./response')
 app.use(bodyParser.json())
 
 app.get('/equipment', (req, res) => {
-  const sql = "SELECT * FROM equipment"
+  const sql = "SELECT * FROM  equipment"
   connection.query(sql, (err, result) => {
     //hasil dari query mysql
     response(200, result, "get all data from equipment", res)
@@ -22,7 +23,7 @@ app.get('/equipment/:equipment_id', (req, res) => {
     //hasil dari query mysql
     response(200, result, "get all data from equipment", res)
   })
-  //console.log("result :", req.query.equipment_id )
+  
 })
 
 app.listen(port, () => {
