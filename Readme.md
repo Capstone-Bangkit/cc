@@ -6,26 +6,39 @@ GymThings application that can detect and identify the function of gym equipment
 
 
 ## Services
-> Base url of this service is: http://localhost:3001/
+> Base url of this service is: 
+<br />
+- on local : http://localhost:3001/
+<br />
+- Deployed : https://backend-dot-capstone-project-387911.as.r.appspot.com
+<br />
 
 The service available:
 
 - Rensponse
   <pre>GET /</pre>
+  To test the api service 
  
 - Equipment
   <pre>GET   /equipment</pre>
+  To get all the data of equipment
+
   <pre>GET  /equipment/{equipmentId}</pre>
+  To get data of equipment by equipmentId
 
  ## Testing
 
 This Web service uses Postman to test.
 
-- You can download the Postman documentation [here](https://documenter.getpostman.com/view/26543404/2s93sc5YZE).
+- You can download the Postman documentation [here](https://documenter.getpostman.com/view/27965604/2s93sf1qwN).
 
+## Architecture
+<p align="center">
+  <img src="image/Architecture%20Gymthings.png" alt="Konva logo" />
+</p>
 
 ## CC Member 
-Responsible for the development of Database Backend API and deploy the database on GCP.In short, CC members are responsible for Backend, Infrastructure, Database, and Devops.
+Responsible for the development of Database Backend API and deploy the database on GCP. In short, CC members are responsible for Backend, Infrastructure, Database, and Devops.
 
 #### Individuals
 <br />
