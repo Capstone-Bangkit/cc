@@ -21,3 +21,15 @@ Responsible for the development of Database Backend API and deploy the database 
 <a href="https://github.com/akmalhisqie"><p>akmalhisqie | Muhamamd Akmal</p>
 
 
+> Base url of this service is: http://localhost:3001/
+
+The service available:
+
+- Rensponse
+  <pre>GET /</pre>
+ 
+- Equipment
+  <pre>GET   /equipment</pre>
+  <pre>GET  /equipment/{equipmentId}</pre>
+
+
