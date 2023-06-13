@@ -4,6 +4,26 @@ Beginners often struggle with using gym equipment, hindering their fitness journ
 
 GymThings application that can detect and identify the function of gym equipment by taking pictures of the gym equipment that users want to use through a smartphone camera. After that, information about the equipment and how to use it will appear. This application can help users to understand what equipment they use and how to use it, so it can help people who are just starting to exercise.
 
+
+## Services
+> Base url of this service is: http://localhost:3001/
+
+The service available:
+
+- Rensponse
+  <pre>GET /</pre>
+ 
+- Equipment
+  <pre>GET   /equipment</pre>
+  <pre>GET  /equipment/{equipmentId}</pre>
+
+ ## Testing
+
+This Web service uses Postman to test.
+
+- You can download the Postman documentation [here](https://documenter.getpostman.com/view/26543404/2s93sc5YZE).
+
+
 ## CC Member 
 Responsible for the development of Database Backend API and deploy the database on GCP.In short, CC members are responsible for Backend, Infrastructure, Database, and Devops.
 
@@ -19,17 +39,5 @@ Responsible for the development of Database Backend API and deploy the database 
 <img src="https://contrib.rocks/image?repo=akmalhisqie/portofolio-assesment" />
 </a>
 <a href="https://github.com/akmalhisqie"><p>akmalhisqie | Muhamamd Akmal</p>
-
-## Services
-> Base url of this service is: http://localhost:3001/
-
-The service available:
-
-- Rensponse
-  <pre>GET /</pre>
- 
-- Equipment
-  <pre>GET   /equipment</pre>
-  <pre>GET  /equipment/{equipmentId}</pre>
 
 
