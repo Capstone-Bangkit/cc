@@ -4,6 +4,8 @@
 
 ### CC Member 
 <a href="https://github.com/Capstone-Bangkit/cc/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Bangkit-Capstone-Project/Cloud_computing" />
+  <img src="https://contrib.rocks/image?repo=Capstone-Bangkit/cc" />
 </a>
+
+
 
