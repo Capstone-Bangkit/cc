@@ -15,7 +15,7 @@ GymThings application that can detect and identify the function of gym equipment
 
 The service available:
 
-- Rensponse
+- Response
   <pre>GET /</pre>
   To test the api service 
  
