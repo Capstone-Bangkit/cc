@@ -43,10 +43,48 @@ This Web service uses Postman to test.
   <img src="image/Architecture%20Gymthings.png" alt="Konva logo" />
 </p>
 
-## ERD
-<p>
+## Instruction
+* Clone this project
+```
+git clone git@github.com:Capstone-Bangkit/cc.git
+```
+* Create your own MySQL database
+
+You can create your own database use the following ERD image or you can import the database from database folder.
+
+### ERD
+<p align="center">
   <img src="image/GymThings%20ERD.jpg" alt="Konva logo" />
 </p>
+
+* Connect to your database
+
+Configure your connection.js
+
+```
+host: 'YOUR SQL PUBLIC IP/HOST',
+user: 'YOUR DATABASE USER',
+password: 'USER PASSWORD',
+database: 'YOUR DATABASE',
+port: '3306'
+```
+* Dependencies
+
+[Express js](https://expressjs.com/en/starter/installing.html)
+
+[MySQL](https://www.npmjs.com/package/mysql)
+
+[body-parser](https://www.npmjs.com/package/body-parser)
+
+Run this following command to install the dependencies
+```
+npm install
+```
+* Run the project
+```
+npm run start
+```
+
 
 ## CC Member 
 Responsible for the development of Database Backend API and deploy the database on GCP. In short, CC members are responsible for Backend, Infrastructure, Database, and Devops.
