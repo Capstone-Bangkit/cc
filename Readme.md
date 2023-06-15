@@ -37,6 +37,11 @@ This Web service uses Postman to test.
   <img src="image/Architecture%20Gymthings.png" alt="Konva logo" />
 </p>
 
+## ERD
+<p>
+  <img src="image/GymThings%20ERD.jpg" alt="Konva logo" />
+</p>
+
 ## CC Member 
 Responsible for the development of Database Backend API and deploy the database on GCP. In short, CC members are responsible for Backend, Infrastructure, Database, and Devops.
 
