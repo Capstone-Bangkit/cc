@@ -1,4 +1,10 @@
-# GymThings: Snap and Figure It Out! 
+<p align="center">
+  <img src="image/GymThings_logo.png" alt="Konva logo" height="180" />
+</p>
+
+<h1 align="center">GymThings: Snap and Figure It Out! </h1>
+
+GymThings: Snap and Figure It Out! 
 Beginners often struggle with using gym equipment, hindering their fitness journey. Many people lack the necessary knowledge and experience to use gym equipment effectively, resulting in injuries and inefficient workouts.
 <br />
 
@@ -8,7 +14,7 @@ GymThings application that can detect and identify the function of gym equipment
 ## Services
 > Base url of this service is: 
 <br />
-- on local : http://localhost:3001/
+- Local : http://localhost:3001/
 <br />
 - Deployed : https://backend-dot-capstone-project-387911.as.r.appspot.com
 <br />
